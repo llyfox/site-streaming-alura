@@ -3,9 +3,12 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
-    --font-principal: 'Comic Neue';
+    --font-principal: 'edosz';
 }
-
+@font-face{
+  font-family: "edosz";
+  src: url('KOMIKAX_.ttf');
+}
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
@@ -17,6 +20,7 @@ body {
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    
 }
 
 .principal {
@@ -35,15 +39,17 @@ body {
 
 .container__titulo {
   margin: 23px;
+  font-weight: 5;
+  
 }
 
 .container__botao {
     background-color: #B0A2D4;
 ;
     border-radius: 5px;
-    padding: 1em;
+    padding: 15px;
     color: var(--branco-principal);
-    display: block;
+    display: flex;
     text-decoration: none;
     margin-bottom: 1em;
 }
@@ -77,14 +83,15 @@ body {
 }
 
 .descricao__titulo {
-  font-weight: 600;
+  font-weight: 100;
   font-size: 28px;
-  color: var(--branco-principal);
+  color: white;
   margin-bottom: 0.1em;
+font-weight: 10;
 }
 
 .descricao__texto {
-  
+  font-weight: 10;
 }
 
 .secundario__botao {
@@ -110,6 +117,7 @@ body {
 }
 .dispositivos__titulo {
   font-size: 48px;
+  font-weight: 5;
 }
 
 .lista__item {
