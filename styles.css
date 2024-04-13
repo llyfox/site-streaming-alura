@@ -33,6 +33,10 @@ body {
   grid-template-columns: 50% 50%;
 }
 
+.container__titulo {
+  margin: 23px;
+}
+
 .container__botao {
     background-color: #B0A2D4;
 ;
@@ -122,12 +126,13 @@ body {
 .lista__link a{
     text-decoration: none;
     color: var(--branco-principal);
-    margin-left: 1em;
+    margin-left: 4em;
 }
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
+    padding: 15px;
 }
 
 .rodape {
