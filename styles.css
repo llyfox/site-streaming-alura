@@ -5,10 +5,7 @@
     --cor-de-fundo: #00030C;
     --font-principal: 'edosz';
 }
-@font-face{
-  font-family: "edosz";
-  src: url('KOMIKAX_.ttf');
-}
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
