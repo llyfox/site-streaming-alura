@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: black;
     color: var(--branco-principal);
     font-family: var(--font-principal);
 }
